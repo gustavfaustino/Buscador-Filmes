@@ -11,7 +11,7 @@ function SearchMovies() {
   const searchMovies = async (e) => {
     e.preventDefault();
 
-    const url = `https://api.themoviedb.org/3/search/movie?api_key=50250b3bbd57027ed0d1e825c7e67123&language=en-US&query=${query}&page=1&include_adult=false`;
+    const url = `https://api.themoviedb.org/3/search/movie?api_key=50250b3bbd57027ed0d1e825c7e67123&language=pt-BR&query=${query}&page=1&include_adult=false`;
 
     try {
       const res = await fetch(url);
@@ -28,14 +28,14 @@ function SearchMovies() {
       {" "}
       <form className="form" onSubmit={searchMovies}>
         <label htmlFor="query" className="label">
-          Movie Name
+          Nome do Filme
         </label>
 
         <input
           className="input"
           type="text"
           name="query"
-          placeholder="Search for a movie..."
+          placeholder="Busque um filme..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           // e = evento; target = elemento que acionou o evento; value = valor do elemento
