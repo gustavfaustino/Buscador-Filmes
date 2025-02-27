@@ -1,12 +1,28 @@
-# React + Vite
+# Movie Searcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de busca de filmes desenvolvido em React utilizando Vite, criado como parte do curso Scrimba.
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O Movie Searcher permite que os usuários pesquisem filmes utilizando a API do The Movie Database (TMDb). O projeto inclui temas personalizáveis que podem ser alternados pelo usuário.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Busca de filmes por nome
+- Exibição de informações detalhadas sobre os filmes, incluindo data de lançamento, nota e descrição
+- Alternância entre temas (claro, escuro e roxo)
+
+## Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TMDb API](https://www.themoviedb.org/documentation/api)
+
+## Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Créditos
+Este projeto foi desenvolvido como parte do curso Scrimba.
+
+## Acesse o Site
+Você pode acessar o site do projeto [aqui]().
