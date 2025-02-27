@@ -25,4 +25,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 Este projeto foi desenvolvido como parte do curso Scrimba.
 
 ## Acesse o Site
-Você pode acessar o site do projeto [aqui]().
+Você pode acessar o site do projeto [aqui](https://buscador-filmes-pi.vercel.app/).
